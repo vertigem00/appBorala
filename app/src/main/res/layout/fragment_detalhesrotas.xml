@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalheRotasFragment">
+
+    <!-- Imagem do Pacote Turístico -->
+
+    <!-- Título do Pacote Turístico dentro de um CardView -->
+    <ImageView
+        android:id="@+id/itinerary_image"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-22dp"
+        android:scaleType="centerCrop" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-30dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardElevation="4dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Detalhes do Pacote -->
+    <TextView
+        android:id="@+id/package_details"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_below="@id/itinerary_image"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        />
+
+    <!-- Preço do Pacote
+    <TextView
+        android:id="@+id/package_price"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@id/package_details"
+        android:layout_margin="0dp"
+        android:textSize="0p"
+        android:textStyle="bold"/>
+    -->
+    <!-- RecyclerView para Atrações -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/attractions_recyclerview"
+        android:layout_width="377dp"
+        android:layout_height="358dp"
+        android:layout_above="@+id/contact_button"
+        android:layout_below="@+id/package_details"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1" />
+
+    <!-- Botão "Entre em contato e feche seu pacote" -->
+
+    <Button
+        android:id="@+id/contact_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="589dp"
+        android:text="Entre em contato e feche seu pacote" />
+
+    <TextView
+        android:id="@+id/package_title_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+</RelativeLayout>

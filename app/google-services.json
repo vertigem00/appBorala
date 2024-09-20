@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706553502660",
+    "project_id": "appborala-d72f0",
+    "storage_bucket": "appborala-d72f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706553502660:android:cb4ae78229106930716291",
+        "android_client_info": {
+          "package_name": "com.example.borala"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDhm5rd6rDbOTB9g2I42dpXNnDcRV5yeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

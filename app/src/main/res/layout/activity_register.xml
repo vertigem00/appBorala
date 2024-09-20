@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para nome -->
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="textPersonName"/>
+
+    <!-- Campo para e-mail -->
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"/>
+
+    <!-- Campo para WhatsApp -->
+    <EditText
+        android:id="@+id/edit_text_whatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="WhatsApp"
+        android:inputType="phone"/>
+
+    <!-- Campo para senha -->
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:inputType="textPassword"/>
+
+    <!-- Botão para registrar -->
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"/>
+</LinearLayout>

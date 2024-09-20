@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/attraction_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="attraction_image_desc"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/attraction_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/attraction_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:id="@+id/favorite_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_favorite"
+            android:contentDescription="favorite_button_desc"
+            android:background="?attr/selectableItemBackground"
+            android:layout_marginEnd="16dp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/contact_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Saiba mais!"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/verde_borala"
+            android:layout_marginEnd="8dp"
+            android:minHeight="48dp" /> <!-- Tamanho mínimo para botões -->
+
+        <Button
+            android:id="@+id/location_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Localização"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/verde_borala"
+            android:minHeight="48dp" /> <!-- Tamanho mínimo para botões -->
+    </LinearLayout>
+
+</LinearLayout>

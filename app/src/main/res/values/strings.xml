@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Fechar Menu</string>
+    <string name="belezas_de_quixada_description">
+        Explore as maravilhas naturais e culturais de Quixadá nesta rota única.
+
+        Comece com uma trilha deslumbrante na Serra da Galinha Choca, um dos monólitos mais icônicos da região.
+        Em seguida, aprecie a rica gastronomia no Café Cultural Cego Aderaldo, com pratos típicos da culinária local.
+        Descubra a história e cultura na Fazenda Não me Deixes, onde viveu a renomada escritora Rachel de Queiroz.
+        Termine a experiência com um almoço delicioso à beira do açude Cedro, na Peixada Imperial.
+
+        Uma jornada que combina natureza, cultura e sabores inesquecíveis.
+    </string>
+</resources>

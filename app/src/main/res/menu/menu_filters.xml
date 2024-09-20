@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_pacotes"
+        android:title="Pacotes Completos" />
+    <item
+        android:id="@+id/nav_natureza"
+        android:title="Natureza" />
+    <item
+        android:id="@+id/nav_cultura"
+        android:title="Cultura" />
+    <item
+        android:id="@+id/nav_bares"
+        android:title="Bares" />
+    <item
+        android:id="@+id/nav_restaurantes"
+        android:title="Restaurantes" />
+</menu>
